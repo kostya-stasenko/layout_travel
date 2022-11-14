@@ -1,0 +1,42 @@
+.content-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+		&__title {
+      font-family: $secondary-font;
+      line-height: 40px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      opacity: 0.6;
+      color: $main-color;
+
+      @media (max-width: 576px) {
+        font-size: 11px;
+      }
+		}
+
+		&__subtitle {
+      max-width: 725px;
+      font-family: $main-font;
+      font-size: 36px;
+      line-height: 50px;
+      color: $main-color;
+      margin-bottom: 77px;
+
+      @media (max-width: 576px) {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 40px;
+        margin-bottom: 35px;
+      }
+		}
+
+		&__image {
+      max-width: 100%;
+      background-color: #fff;
+      padding: 10px;
+		}
+}

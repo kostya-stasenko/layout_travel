@@ -1,2 +1,9 @@
 @import "./utils/reset";
 @import "./utils/variables";
+
+body {
+  background: #e8e8e8 url("/images/ellipse.png") 53% 130px no-repeat;
+}
+
+@import "./blocks/content.scss";
+@import "./blocks/content-top.scss"
